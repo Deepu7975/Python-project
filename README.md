@@ -29,7 +29,7 @@ A simple Bank Management System developed using Python and Object-Oriented Progr
 ## Run the Project
 
 ```bash
-python bank.py
+python Banking.py
 ```
 
 ## Author
