@@ -1,0 +1,131 @@
+# 🎬 Movie Booking System (Python OOP)
+
+A console-based **Movie Booking System** developed using **Python** and **Object-Oriented Programming (OOP)** concepts. This project allows users to select movies, book tickets, make payments, verify OTPs, and generate booking receipts.
+
+## 🚀 Features
+
+* 🎥 Movie Selection
+* 🏢 Theater Selection
+* 🎟 Ticket Booking
+* 💺 Seat Availability Check
+* 💳 Online (UPI) Payment
+* 💵 Cash Payment
+* 🔐 OTP Generation & Verification
+* 🔑 UPI PIN Verification
+* 🧾 Booking Receipt Generation
+* 📄 Booking History Saved to File
+* 🆔 Unique Booking ID Generation
+* 🕒 Booking Date & Time
+* 🧮 GST Calculation
+* 🧱 Object-Oriented Programming (OOP)
+
+## 🛠 Technologies Used
+
+* Python 3.x
+* OOP (Classes & Objects)
+* File Handling
+* Random Module
+* UUID Module
+* Datetime Module
+
+## 📂 Project Structure
+
+```
+Python-project/
+│── BookmyMovie.py
+│── Movies.py
+│── Phonepay.py
+│── Booking_History.txt
+│── Otp-generator.txt
+│── README.md
+```
+
+## ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Deepu7975/Python-project.git
+```
+
+2. Open the project folder
+
+```bash
+cd Python-project
+```
+
+3. Run the application
+
+```bash
+python BookmyMovie.py
+```
+
+## 📌 Workflow
+
+1. Select a movie.
+2. View theater details.
+3. Enter the number of tickets.
+4. Choose a payment method:
+
+   * Online (UPI)
+   * Cash
+5. Verify OTP (for online payment).
+6. Generate the booking receipt.
+7. Save booking details to `Booking_History.txt`.
+
+## 📸 Sample Output
+
+```
+===== KANNADA MOVIE BOOKING SYSTEM =====
+
+1. Horror
+2. Action
+3. Drama
+...
+10. Exit
+
+Enter Choice : 1
+
+Movie Name : Karva
+
+Theater : PVR
+
+Enter Number of Tickets : 2
+
+Payment Successful
+
+Booking ID : 8FA2BC17
+
+Grand Total : ₹590.00
+```
+
+## 🎯 OOP Concepts Used
+
+* Class
+* Object
+* Constructor (`__init__`)
+* Instance Variables
+* Methods
+* Encapsulation
+
+## 📈 Future Improvements
+
+* User Login & Registration
+* Admin Dashboard
+* Seat Selection (A1, A2, B3...)
+* Multiple Show Timings
+* Ticket Cancellation
+* SQLite/MySQL Database Integration
+* GUI using Tkinter
+* Django Web Application
+* PDF Ticket Generation
+
+## 👨‍💻 Author
+
+**Dhanush TU**
+
+* GitHub: https://github.com/Deepu7975
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub!
